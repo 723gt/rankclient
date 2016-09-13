@@ -10,4 +10,7 @@ $(function(){
     }
   });
   setTimeout("location.reload()",5000);
+  $(window).load(function() {
+  $(this).delay(600).fadeIn("slow");
+  });
 });
