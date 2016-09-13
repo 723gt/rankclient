@@ -9,8 +9,10 @@ $(function(){
     	$("#other_rank").append("<div>" + (i+1) + "位:" + " " + "Name:" + " " + rank[i].name + " " + "Score:" + " " + rank[i].score + "</div><br>");
     }
   });
-  setTimeout("location.reload()",5000);
-  $(window).load(function() {
-  $(this).delay(600).fadeIn("slow");
+  setTimeout("location.reload()",10000);
+  
+  $(window).ready(function() {
+   $('body').delay(600).fadeIn(2000);
+   //alert("hello");
   });
 });
