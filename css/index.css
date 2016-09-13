@@ -1,0 +1,28 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+	position: absolute;
+	left: 400px;
+  text-align:center;
+  position: absolute;
+
+}
+
+._1st_rank{
+  font-size: 300%;
+}
+
+._2nd_rank{
+  font-size: 250%;
+}
+
+._3rd_rank{
+  font-size: 200%;
+}
+
+.other_rank{
+	font-size: 150%;
+}
