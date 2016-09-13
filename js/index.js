@@ -9,5 +9,5 @@ $(function(){
     	$("#other_rank").append("<div>" + (i+1) + "位:" + " " + "Name:" + " " + rank[i].name + " " + "Score:" + " " + rank[i].score + "</div><br>");
     }
   });
-
+  setTimeout("location.reload()",5000);
 });
